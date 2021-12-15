@@ -1,10 +1,5 @@
 >## *Predict Bitcoin prices with LSTM*  
 #
-#### Quick Start with Pip
-```bash
-pip install -r requirements.txt
-```
-##
 
 <img src="Images/Earth.jfif" align="center" width="200px"/>
 <br clear="center"/>
