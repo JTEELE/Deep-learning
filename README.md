@@ -20,7 +20,6 @@ pip install -r requirements.txt
 <img src="Images/neural_network.png" align="right" width="300px"/>
 <br clear="center"/>
 
-#
 
 >## What is FNG?
 > [Zignaly](https://zignaly.com/crypto-knowledge-base/crypto-fear-and-greed-index/#:~:text=A%20Bitcoin%20fear%20and%20greed%20index%2C%20created%20by,when%20investors%20may%20be%20too%20greedy%20or%20fearful.): A Bitcoin fear and greed index, created by the Alternative.me platform, is used to analyze emotions and sentiments from various sources before crunching them into a number. As with traditional trading markets, the crypto greed and fear index ranges from zero to 100, indicating when investors may be too greedy or fearful.
