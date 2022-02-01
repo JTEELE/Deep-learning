@@ -8,7 +8,7 @@
 #
 
 >### Overview: 
->> This script will *build* & *evaluate* deep learning models using both the Fear & Greed (FNG) values and simple closing prices to determine if the FNG indicator provides a better signal for cryptocurrencies than the normal closing price data.
+>> This script will *build* & *evaluate* deep learning models using two variables, the Fear & Greed (FNG) values and simple closing prices, to determine if the FNG indicator provides a better signal for cryptocurrencies than the normal closing price data.
 
 >> One model will use the FNG indicators to predict the closing price while the second model will use a window of closing prices to predict the nth closing price.
 
