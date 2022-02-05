@@ -1,5 +1,5 @@
+#Import libraries & Dependencies
 from _functions import *
-
 import numpy as np
 import pandas as pd
 import hvplot.pandas
@@ -22,12 +22,10 @@ prices_df = prices_df.sort_index()
 print('')
 print('Fear and greed sentiment data & Historical closing prices (First two records):')
 lstm_df = sentiment_df.join(prices_df, how="inner")
-
 print(lstm_df.head(2))
 
 run_lstm(lstm_df, window_size, close_feature, close_target)
 
 run_lstm(lstm_df, window_size, fng_feature, fng_target)
-
 
 print('Historical closing prices are a better predictor for the LSTM when compared to the F&G Index.')

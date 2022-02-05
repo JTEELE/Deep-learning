@@ -7,6 +7,14 @@
 
 #
 
+>### Getting Started:
+>> 
+- Standard python file can be run using Git bash or command line prompt:
+
+```bash
+python main.py
+```
+
 >### Overview: 
 >> This script will *build* & *evaluate* deep learning models using two variables, the Fear & Greed (FNG) values and simple closing prices, to determine if the FNG indicator provides a better signal for cryptocurrencies than the normal closing price data.
 
@@ -23,11 +31,8 @@
 <br clear="center"/>
 
 ## Resources:
-1. Northwestern NPS:
-https://sps.northwestern.edu/
-
-2. Zignaly:
+1. Zignaly:
 https://zignaly.com/crypto-knowledge-base/crypto-fear-and-greed-index/#:~:text=A%20Bitcoin%20fear%20and%20greed%20index%2C%20created%20by,when%20investors%20may%20be%20too%20greedy%20or%20fearful.
 
-3. Alternative.me:
+2. Alternative.me:
 https://alternative.me/crypto/fear-and-greed-index/
