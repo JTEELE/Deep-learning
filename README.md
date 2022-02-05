@@ -12,6 +12,10 @@
 - Standard python file can be run using Git bash or command line prompt:
 
 ```bash
+conda env create --file lstm.yml
+```
+
+```bash
 python main.py
 ```
 
