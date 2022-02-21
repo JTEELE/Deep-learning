@@ -79,8 +79,6 @@ def run_lstm(lstm_df, window_size, feature, target):
     print('Training the model..') 
     model.fit(X_train, y_train, epochs=10, shuffle=False, batch_size=90, verbose=1)
     print('')
-    print('')
-    print('Evaluate the model with X_test & y_test')
     model.evaluate(X_test, y_test, verbose=0)
     print('Predict Prices on Test data')
     predicted = model.predict(X_test)
@@ -88,7 +86,6 @@ def run_lstm(lstm_df, window_size, feature, target):
     print('IMPORTANT: Use `inverse_transform` function to the predicted and y_test values to recover the actual closing prices.') 
     predicted_prices = scaler.inverse_transform(predicted)
     real_prices = scaler.inverse_transform(y_test.reshape(-1, 1))
-    print('Visualizing Actuals vs Predictions..')
     stocks = pd.DataFrame({
         "Real": real_prices.ravel(),
         "Predicted": predicted_prices.ravel()
